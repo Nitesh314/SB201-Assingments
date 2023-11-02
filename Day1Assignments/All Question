@@ -1,0 +1,38 @@
+Q1. When should one use Maven?
+    
+    Maven is chiefly used for Java-based 
+    projects, helping to download dependencies,
+    which refers to the libraries or JAR files.
+    The tool helps get the right JAR files for 
+    each project as there may be different versions
+    of separate packages.
+   
+
+
+Q2. Explain the core concepts of Maven.
+
+     Maven is centered around the concept of POM files
+      (Project Object Model). A POM file is an XML representation 
+      of project resources like source code, test code, dependencies 
+      (external JARs used) etc. The POM contains references to all of
+       these resources.
+
+
+Q3. Explain about the basic properties of pom.xml file.
+
+
+
+Q4. What are the different phases of the default life cycle?
+
+
+
+Q5.What are the different types of Maven repositories?
+
+
+
+Q6. Explain what a Primary key, Candidate Key, Prime Attributes,
+    and Non-prime Attributes is.
+
+
+
+Q7. What are the rules for a table to be in 1NF, 2NF, and 3NF?
