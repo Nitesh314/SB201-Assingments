@@ -1,0 +1,26 @@
+Q1/- What are the limitations of EntityManager methods to perform CRUD operations with
+     DB?
+
+
+ ans=>
+      there  are many limitations of performing operations using  EntityManager methods with
+      DB
+      
+      EntityManager methods;
+      
+      1) persist();
+      2)find();
+      3)merge();
+      4)remove();
+      
+   
+   1) Retrieving Entity object based on only ID field means 
+      we are retrieve the data only based on primary key;
+      
+   2)multiple Entity object retrieval is not possible using find() method
+   
+   3)bulk update and bulk delete is also not possible 
+   
+   4)to access Entity object we can not specify some extra condition;
+         
+
