@@ -1,0 +1,28 @@
+Q3/- What are the challenges of developing an Enterprise application?
+
+  ans=> Developing enterprise applications can be a complex and challenging
+        task due to the unique requirements and scale of these applications.
+        Here are some of the common challenges faced by developers when building
+        enterprise applications: 
+        
+       1) Security: Enterprise applications deal with sensitive data and
+                  often need to adhere to strict security regulations.
+                  Ensuring data security, authentication, authorization, 
+                  and protection against vulnerabilities like SQL injection
+                  and cross-site scripting is a significant challenge.
+                  
+       2)Complexity: Enterprise applications often need to handle complex business logic, 
+                   data flows, and integrations with various systems. Managing this complexity 
+                   can be challenging, especially as the application grows.
+
+       3)Scalability: Enterprise applications must be able to scale horizontally and vertically 
+                    to accommodate increased user loads and data volumes. Ensuring scalability 
+                    without sacrificing performance can be difficult.    
+                    
+        4)logging
+        
+        5)messaging
+        
+        6)mailing
+        
+        etc.                   

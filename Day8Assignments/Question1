@@ -1,0 +1,38 @@
+Q1/- Wht is the J2EE, list out some of the Application Server names.
+
+   ANS=>
+        Java 2 Platform, Enterprise Edition (J2EE) is a set of 
+        specifications, APIs (Application Programming Interfaces),
+        and technologies for building enterprise-level applications
+        using the Java programming language. It provides a standardized
+        way to develop, deploy, and manage large-scale, distributed,
+        and multi-tiered Java applications.
+        
+        Some of the key features and components of J2EE include:
+        
+       
+       1 Servlets: Servlets are Java programs that run on a web
+         server and handle HTTP requests and responses. They are
+         used for building web applications.
+
+	   2 JSP (JavaServer Pages): JSP is a technology for creating
+	     dynamic web pages using Java. It allows embedding Java code
+	     within HTML pages to generate dynamic content.
+		
+	   3 EJB (Enterprise JavaBeans): EJB is a component model for
+	     building enterprise-level, server-side applications. 
+	     It provides features like transaction management, security, and scalability.
+		
+	   4 JMS (Java Message Service): JMS is a messaging standard for building
+	     distributed and loosely coupled applications. It allows applications
+	     to exchange messages asynchronously.
+		
+	   5 JTA (Java Transaction API): JTA is an API for managing
+	     distributed transactions in Java applications.
+		
+	   6 JDBC (Java Database Connectivity): JDBC is used for database connectivity and allows Java applications to interact with relational databases.
+		
+	   7 JNDI (Java Naming and Directory Interface): JNDI
+	     provides a naming and directory service for Java
+	     applications, allowing them to look up resources
+	     like database connections and EJB components

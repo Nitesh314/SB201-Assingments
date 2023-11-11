@@ -1,0 +1,18 @@
+Q4/- Write Short notes on how the Spring framework evolves.
+
+ans=>he Spring framework is a popular and widely used 
+     framework for building Java-based enterprise applications. 
+     It has evolved over the years to meet the changing 
+     needs of developers and the evolving landscape of 
+     enterprise software development. Here are some short 
+     notes on how the Spring framework has evolved:
+     
+     Inception (2002): The Spring framework was created by Rod Johnson and first 
+     released in 2002. It was designed to address the complexities and challenges 
+     of Java EE (Enterprise Edition) development. The initial release focused on 
+     providing a lightweight and non-intrusive alternative to Java EE.
+     
+     IoC Container (Inversion of Control): The core concept of Spring is the IoC 
+     container, which allows developers to manage and configure application 
+     components and their dependencies. The framework's early versions primarily 
+     revolved around this container.
