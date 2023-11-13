@@ -1,0 +1,16 @@
+Q2/- Explain about IOC and Dependency Injection
+
+   IOC =>
+         when the dependency entity object not created inside dependent 
+         entity and it can be created outside of any entity,class or container
+         then  it know as Inversion of control(IOC)
+         
+   
+   Dependency Injection=>
+                        Here external entity will push the dependency object to the dependent clss
+                        (configuring the object inside some container and the container will push the 
+                        dependency object to the dependent class)
+                              
+         
+         
+         

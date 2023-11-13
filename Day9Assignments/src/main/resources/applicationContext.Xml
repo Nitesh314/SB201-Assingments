@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean id="student" class="com.masai.entity.Student">
+	  
+	  <constructor-arg name="roll" value="101" />
+	  <constructor-arg name="mark" value="A+" />
+	  <constructor-arg name="marks" value="500" />  
+  </bean>
+  
+  <bean id="collage" class="com.masai.entity.Collage">
+	  
+	  <property name="collage_name" value="Vidya Varidhi"/>
+	  <property name="collage_address" value="Nallasopara"/>
+	  <property name="student" ref="student"/>
+	  
+  </bean>
+  
+  
+  </beans>

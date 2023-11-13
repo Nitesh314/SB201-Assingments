@@ -1,0 +1,27 @@
+Q/- What is a Spring Bean and Spring container? How to activate the Spring Container in our
+    application.
+    
+    
+    
+   Spring Bean=>
+                
+                Any java class which is register with Spring container is known as Spring bean.
+                
+   
+   Spring container=>
+                     
+                     A spring application the pure java class that control all the bean class is 
+                     known as Spring container.
+                     
+                        
+   how to active spring container
+   
+   Create a Spring configuration XML file (e.g., applicationContext.xml) and define your beans and their configurations within this file.
+   
+  => Use the ClassPathXmlApplicationContext or FileSystemXmlApplicationContext classes 
+     to load the XML configuration file and initialize the Spring Container.
+                                 
+                
+                  
+
+
