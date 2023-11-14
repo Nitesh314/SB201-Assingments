@@ -1,0 +1,49 @@
+Q4/- What is auto wiring in Spring, how many types of Auto wiring are there in spring,
+explain with an example.
+
+
+   Auto wiring in spring=>
+                          if the spring container onm its own details the dependencies implicitly and injecting 
+                          them into the dependent bean is known as auto wiring;
+                          
+   there is 4 type of auto wiring in spring 
+   
+   1)no(by default)
+   
+   2)byName
+   
+   3)byType
+   
+   4)Constructor
+   
+   
+  
+  2)byName=> 
+            in this strategy if the bean id attribute value 
+            in applicationContext.xml match with the variable/property name of  a dependent bean
+            then implicitly performs the setter injection in dependent bean it is know the auto wiring byName
+            
+            example=
+            
+            <bean id="aid" class="com.masai.A" autoWire="byName"/>
+
+
+          in this strategy if the bean class type value in applicationContext.xml match with the property 
+          of the class type is same then container implicitly inject the setter  injection in dependent bean is known as 
+          auto wire byType
+          
+          example=
+                      <bean id="aid" class="com.masai.A" autoWire="byType"/>
+                     
+             
+  
+   3)Constructor=>
+                   in this strategy spring container uses constructor injection instead of setter injection dependency resolution
+                   by max number of Constructor if Constructor are overloaded.
+                   
+                   
+                   
+                                           
+                          
+                          
+                          

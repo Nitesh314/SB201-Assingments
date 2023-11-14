@@ -1,0 +1,15 @@
+Q3/- What is the difference between setter injection and constructor injection?
+
+  constructor=>
+               1)it may cause circular dependency.
+               2)if the dependency is mandatory the we use constructor
+               3)we inject final variable through the constructor.
+               4)constructor injected values will be accessible to setter method
+               5)constructor injected values can not override the setter injected value;
+               
+               
+  Setter=>
+          1)it resolve the circular dependency.            
+          2)if the dependency is optional then we use setter
+          3)we can not inject final variable through the setter
+          4)it can be override the constructor injected value.

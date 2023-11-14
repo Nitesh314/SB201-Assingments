@@ -1,0 +1,57 @@
+Q2/- How many scopes are there for a Spring Bean, which is the default scope for a Spring
+Bean? Explain with an example
+
+spring Scope=>
+             there are 4 scope for spring bean
+             
+            1)singleton scope(by default)
+            
+            2)Prototype scope
+            
+            3)request scope 
+            
+            4)session scope
+            
+ here request and session scope are use only in web app(spring -mvc module)
+ 
+ 
+ singleton and prototype scope can be used in 
+ both web and non-web application.
+ 
+ 
+1)singleton scope=>
+                   it is return same bean class object for all the getBean()n method call with the same bean.
+                   
+               Example=>
+               
+               when we write this line
+               
+               ApplicationContext ctx=new ClassPathApplicationContext("applicationContext.xml");
+               
+               A a1=ctx.getBean("aid",A.class); 
+               
+               A a2=ctx.getBean("aid",A.class);
+               
+               syso(a1==a2)//true
+               
+               because singleton use to object based when we call ctx.getBean() method 
+               then it will create one A class object but when we return call A object then
+               the before created object get by a2
+               
+            note=> here we when the object are same and id is same then its work if i change object and id then it get the false.
+            
+            
+  2)prototype=>
+              it return the separate bean class object for every getBean() method 
+              it the same id also.
+              
+              in order to tell the container to put bean object
+              in a prototype scope we need to use "Scope" attribute of the <bean> tag;
+              
+         <bean id="aid" class="com.masai.A" Scope="prototype">
+         
+                           
+ 
+               
+
+            
