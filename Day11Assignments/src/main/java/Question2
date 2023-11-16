@@ -1,0 +1,43 @@
+- What are the Spring Stereotype annotations, and what are the main uses of these
+annotations.
+
+Ans=>
+     String Stereotype annotations=>
+     
+     there are 4 Stereotype annotations 
+     
+     here 3 is sub type and 1 is super type of all three.
+     
+     1) @Component (super type)
+     
+     2) @Service
+     
+     3) @Controller
+     
+     4)@Reposistory
+     
+ 
+ 1=>
+    @Componenet is  a super type of all the Stereotype annotations 
+    it is use to register normal java class to Spring container
+    and get spring bean class.
+    
+    
+ 2=> 
+    @Service is used to present those class who is handled the service/Business
+    layer(business logics) it is register those class to spring container to become spring Bean 
+    
+ 3=>
+    @Controller is use to present those class who handled the presentation logic or layer
+    it is use to register those classes to spring container to become the 
+    spring beans;
+    
+ 4=>
+    @Repository is use to present those classes handled Data access layer 
+    or data access logic it is use to register those classes to spring container 
+    to become the spring bean
+       
+        
+           
+     
+     
