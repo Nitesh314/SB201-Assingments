@@ -1,0 +1,6 @@
+Q1/- Explain the Java-based Spring MVC architecture.
+
+ans=>
+     in spring MVC framework developers need not develop any servlet class instead 
+     Spring mvc f/w has given a servlet which will have all the flow control logic 
+     (DespatcherServlet)

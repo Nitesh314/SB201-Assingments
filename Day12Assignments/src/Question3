@@ -1,0 +1,27 @@
+Q3/- What is the difference between WebApplication and Web-services?
+
+ebServer=>
+   
+   1) Java Based Web Server is the small\subset of the Application Server
+   
+   2) Web server contains only servlet container s\w.
+   
+   3) Web server communicate only http protocol.
+   
+   4)Web server is the light weight server s\w.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   Application Server=>
+                      
+   1)Application Server contains both EJB and Servlet container s\w.
+                       
+   2)Application Server can be communicate any kind of protocol(Ex- http,smtp,ftp etc)
+    
+   3)Application server is a high weight server s\w.

@@ -1,0 +1,49 @@
+Q2/- What is the HTTP protocol, explain about the HTTP request and the HTTP response.
+
+
+ans=>
+     it is a protocol that contains set of rules and guidelines to get communication between
+     http client(browser s/w) and web server or application server.
+     
+     
+HTTP Request:
+            An HTTP request is made by a client (such as a web browser) to 
+            request a resource, like a web page or a file, from a web server. 
+            A typical HTTP request consists of the following components:
+
+Request Method: 
+              This indicates the type of request being made, such as GET, POST, PUT, DELETE, etc. 
+              The most common method is GET, which is used to retrieve data.
+
+Request URL (Uniform Resource Locator): 
+              This is the URL of the resource the client wants to access.
+
+HTTP Version: 
+            It specifies the version of the HTTP protocol being used, like HTTP/1.1 or HTTP/2.
+
+Request Headers: 
+            These are key-value pairs that provide additional information about the request. 
+            Headers can include information about the client, the type of data it can accept, and more.
+
+Request Body (Optional): 
+            Some request methods, like POST or PUT, may include a request body. This is where 
+            data, such as form data or a file to upload, is sent to the server.  
+
+
+HTTP Response:-
+             An HTTP response is sent by the web server to the client in 
+             response to an HTTP request. It typically includes the following components:
+
+Status Line: 
+           This line contains an HTTP status code and a brief, human-readable 
+           status message. The status code indicates whether the request was 
+           successful, encountered an error, or needs further action.
+
+Response Headers: 
+                Similar to request headers, response headers provide additional 
+                information about the server's response. They can include details 
+                about the server, the type of content being sent, and more.
+
+Response Body: 
+               The response body contains the actual data that the client requested. 
+               It could be an HTML web page, an image, a file, or any other type of data.        

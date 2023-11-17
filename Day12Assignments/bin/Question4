@@ -1,0 +1,46 @@
+Q4/- Explain about the various HTTP request methods and some of the commonly used
+HTTP response status codes.
+
+HTTP Request Methods:
+
+GET: This method is used to retrieve data from a specified resource. It should have no side effects on the server and is considered safe.
+
+POST: POST is used to submit data to be processed to a specified resource. It can result in the creation of a new resource or update an existing one.
+
+PUT: PUT is used to update or replace a resource at a specific URI. It typically updates the entire resource and is idempotent, meaning multiple identical requests should have the same effect as a single request.
+
+DELETE: DELETE is used to request the removal of a resource at a specific URI.
+
+
+HTTP Response Status Codes:
+
+HTTP response status codes indicate the outcome of an HTTP request. They are three-digit numeric codes grouped into different classes, each with a specific meaning.
+
+Here are some commonly encountered HTTP response status codes:
+
+200 OK: The request has been successful, and the server returns the requested data.
+
+201 Created: The request has successfully created a new resource on the server.
+
+204 No Content: The request was successful, but there is no data to return (e.g., after a successful DELETE request).
+
+400 Bad Request: The server cannot understand the request due to client error, such as malformed syntax or missing required parameters.
+
+401 Unauthorized: The request requires authentication, and the provided credentials are invalid or missing.
+
+403 Forbidden: The server understood the request but refuses to fulfill it. This typically indicates that the client lacks permission to access the resource.
+
+404 Not Found: The requested resource could not be found on the server.
+
+500 Internal Server Error: An unexpected error occurred on the server while processing the request.
+
+502 Bad Gateway: The server, while acting as a gateway or proxy, received an invalid response from the upstream server.
+
+503 Service Unavailable: The server is temporarily unable to handle the request due to maintenance or overloading.
+
+These are just a few examples of HTTP request methods and response status codes. HTTP includes a wider range of methods and status codes, each serving specific purposes to enable effective communication between clients and servers on the web.
+
+
+
+
+
