@@ -1,0 +1,24 @@
+Q1/- What is a Servlet ? What is the role of the DispatcherServlet in the Spring boot rest
+application.
+
+
+
+A1:
+
+Servlet:
+A servlet is a Java-based, platform-independent component that is used to extend the 
+capabilities of a web server. It can dynamically process and respond to client requests. 
+Servlets are typically used in web applications to generate dynamic web content, handle 
+user input, and interact with databases.
+
+Servlets follow the Java Servlet API, which defines a standard interface for writing 
+Java classes that respond to HTTP requests. Servlets can handle various HTTP methods 
+(e.g., GET, POST) and are commonly used in Java-based web applications to manage the 
+server-side logic.
+
+DispatcherServlet in Spring Boot:
+In a Spring Boot REST application, the DispatcherServlet is a crucial component of the 
+Spring Framework that plays a central role in request handling. It is responsible for 
+dispatching incoming HTTP requests to the appropriate controller methods and managing 
+the processing of those requests. Here's what the DispatcherServlet does in a Spring Boot 
+REST application:

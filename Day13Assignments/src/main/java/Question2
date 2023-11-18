@@ -1,0 +1,14 @@
+Q2/- Explain the difference between Spring-MVC and Spring Boot.
+ 
+ Spring-MVC=>
+           1)If we develop a web application according to the MVC architecture manually we need 
+             to develop Servlet class , jsp file and all the flow control logic manually.
+           2)Spring-MVC module provides a predefined Servlet class with predefined flow control logic
+             i.e DispatherServlet class.
+           
+ Spring-Boot=>
+            1)In spring boot rest api development will work based on spring MVC architecture.
+            2)  It is a spring platform that mainly focus on convention over configuration.
+            3)it is not a f/w s/w it is just a spring application development platform which
+            provides RAD(rapid Application Developments) feature to the spring f/w.        
+            
