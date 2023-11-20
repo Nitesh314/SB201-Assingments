@@ -1,0 +1,13 @@
+package com.masai.exceptions;
+
+public class InvalidIdException extends Exception {
+	
+	public InvalidIdException() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public InvalidIdException(String msg) {
+		super(msg);
+	}
+ 
+}
