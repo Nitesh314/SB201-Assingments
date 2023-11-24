@@ -1,0 +1,15 @@
+● Explain difference between JPA and Hibernate.
+
+1) JPA
+      1-JPA stand for Java persistence API.
+      2-JPA is a Standard API for all the ORM s/w.
+      3-JPA is responsible for mapping relational databases in java application.
+      4-JPA is defined under the javax.persistece package.
+      5-JPA is the java specification and not the implementation.
+      
+      
+2)Hibernate
+           1-Hibernate is an ORM tool used for saving the state of the java object in the DB.
+           2-Hibernate is defined under org.hibernate package.
+           3-Hibernate is an implementation of JPA and uses common standards of JPA.
+           4-it is used to map java data types with databases tables and SQL data types.      

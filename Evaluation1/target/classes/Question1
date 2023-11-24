@@ -1,0 +1,17 @@
+What are the advantages of using Hibernate over JDBC?
+
+ans=>
+      there are many advantages of using hibernate over JDBC
+      
+      1- Using hibernate we dont write and add dependency in the class path
+      2- Using hibernate we dont write SQL query
+      3- Hibernate support inheritance and association mapping.
+           This is the major benefit of Hibernate over JDBC. In 
+           JDBC there is no concept of inheritance or association mapping.
+           In association mapping, it is easy to save and manage the entity. 
+           For example, when we save parent entity the child entity
+           will save automatically.
+           
+       4- Associate mapping can be done while using Hibernate.
+          We can use associations like one to one and one to many 
+          through annotations. This helps to manage the entity in an easier way.   

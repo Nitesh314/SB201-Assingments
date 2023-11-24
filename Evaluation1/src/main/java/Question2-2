@@ -1,0 +1,65 @@
+● Explain the Life-cycle of Entity class with example
+
+
+                  The Life-cycle of Entity class
+				                |
+		1		                |
+   		------------------------------------------------------              
+        |                        | 2                         |3
+        |                        |                           | 
+  New/Transient State        Persistence/managed State       |
+                                                             |
+                                                             |
+                                                        Detached State
+                                                        
+                                                            
+ 
+ 
+    
+1-New/Transient State:
+                       if we create the object of persistence 
+                       class and this is not attached with EntityManager 
+                       object then this stage is known as new/Transient state 
+                     
+2-Persistence/managed State:
+                            if we create the object of persistence class and this object 
+                            is associated with EntityManager object then this stage is known as 
+                            persistence State.
+                            
+                     example->
+                              when we call the persist(-) and find(-,-) methods then by supplying and gating the Entity objects then this stage is known
+                              persistence stage.
+                              
+-Detached state:
+                when we use or call the close() or clear() method with the help of EntityManager then
+                EntityManager release or get  all the Entity in Detached State
+                
+                when the Entity in Detached State then Entity not have synchronized with DB.
+                
+     EXAMPLE of ALl=>
+      
+      
+      
+      public class  DEMO{           
+      
+      public static void main(String[] args){
+      
+        EntityManagerFactory emf=Persistence.createEntityManagerFactory("employeeUnit");
+		  
+		EntityManager em=emf.createEntityManager();
+		
+		Employee employee=new Employee(,"Nitesh",50000); //	new/Transient state
+		
+		em.persist(employee)//persistence state
+		
+		em.close()//Detached State;
+		
+		}
+	   }
+	    	
+		
+		
+      
+                
+                
+                                                                            
