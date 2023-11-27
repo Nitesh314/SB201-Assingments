@@ -1,0 +1,58 @@
+Q1/- What do you mean by the IOC, explain the life cycle of the Spring Bean.
+
+
+ans=>
+     IOC(Inversion of control)=>
+                             when the dependency entity object not created inside dependent 
+					         entity and it can be created outside of any entity,class or container
+					         then  it know as Inversion of control(IOC)
+					         
+					    
+					    
+	Life cycle of spring bean=>
+    
+    Life cycle of spring bean is 5 stage;
+    
+    1)Does not exist.
+    
+    2)Instantiated
+    
+    3)Initialized
+    
+    4)Service
+    
+    5)Destory
+    
+    
+ 1)Does not exist=>
+                   Initially a spring bean object does not exist, if thd bean object
+                   is in singleton scope then bean
+                   is instantiated by container at the time of loading the xml file.
+                   
+                    if the scope is prototype then it is instantiated at the time of pulling the 
+                    object that object(at the time of calling the getBean() method ).
+  
+  2) Instantiated=>
+                   Spring container loads the spring bean class into
+                   the memory and creates the bean class object after 
+                   that ten bean class object is created, spring container user id to popukated the bean files 
+                   
+                   all the dependencies will be resolved for a spring bean before its instantiated is 
+                   finished
+                   
+                   
+ 3) Initialization phase=>
+                         if inside the spring bean class any user-defined init-method is configured
+                         spring container will call the method
+                         
+                         
+ 4)Services=>
+             here spring container provides the bean object reference to the caller 
+             then caller will call its business method on the bean object.
+             
+             
+ 5)Destory=>
+            upon the container shutdown (when we call close() method on the container class )
+            spring container will call user defined destory() method if it is configured just before bean instance is garbage collected.
+                                 				         
+					         
